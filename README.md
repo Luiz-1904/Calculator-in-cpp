@@ -1,42 +1,42 @@
 # 🧮 Simple C++ Calculator
 
-Este é um projeto simples de calculadora feito em C++ com o objetivo de praticar e estudar a linguagem. Ele permite realizar as quatro operações matemáticas básicas: soma, subtração, multiplicação e divisão.
+This is a simple calculator project written in C++ with the goal of practicing and studying the language. It allows you to perform the four basic mathematical operations: addition, subtraction, multiplication, and division.
 
-## ✨ Funcionalidades
+## ✨ Features
 
-- Entrada de dois números reais (`double`)
-- Quatro operações:
-  - Soma
-  - Subtração
-  - Multiplicação
-  - Divisão (com verificação de divisão por zero)
-- Repetição da operação com base na resposta do usuário
-- Validação de entradas com tratamento de erros
+- Input of two real numbers (`double`)
+- Four operations:
+  - Addition
+  - Subtraction
+  - Multiplication
+  - Division (with division-by-zero check)
+- Option to repeat calculations based on user input
+- Input validation with error handling
 
-## 📄 Código Fonte
+## 📄 Source Code
 
-O código está todo estruturado em um único arquivo e contém funções separadas para:
-- Cada operação matemática (`sum`, `sub`, `mult`, `div`)
-- Controle de fluxo para repetir ou encerrar (`playAgain`)
-- Lógica principal da calculadora (`calculator`)
-- Interface de entrada com o usuário (`interface`)
-- Função principal (`main`)
+The entire code is structured in a single file and includes separate functions for:
+- Each mathematical operation (`sum`, `sub`, `mult`, `div`)
+- Flow control to repeat or exit (`playAgain`)
+- Main calculator logic (`calculator`)
+- User input interface (`interface`)
+- Main entry point (`main`)
 
-## 🔧 Como compilar e executar
+## 🔧 How to Compile and Run
 
-### Compilação
+### Compile
 
 ```bash
 g++ -o calculator calculator.cpp
 ```
 
-### Execução
+### Run
 
 ```bash
 ./calculator
 ```
 
-## 🧠 Exemplo de uso
+## 🧠 Example Usage
 
 ```text
 Type the first number: 10
@@ -46,18 +46,16 @@ Choose an operation (1 = +, 2 = -, 3 = *, 4 = /): 1
 Do you want to calculate again? (Y/N): y
 ```
 
-## 📚 Objetivos educacionais
+## 📚 Educational Goals
 
-Este projeto tem como principal objetivo:
-- Praticar estruturas básicas em C++
-- Entender o uso de funções, loops, condicionais e tratamento de erros
-- Melhorar a organização do código com boas práticas
+This project aims to:
+- Practice basic C++ syntax and structures
+- Understand the use of functions, loops, conditionals, and error handling
+- Improve code organization using good practices
 
-## 🛠️ Possíveis melhorias
+## 🛠️ Possible Improvements
 
-- Adicionar suporte a mais operações (por exemplo, potência, raiz quadrada)
-- Criar um menu principal
-- Permitir entrada de expressões completas
-- Criar uma interface gráfica futuramente
-
----
+- Add support for more operations (e.g., power, square root)
+- Create a main menu
+- Allow full expression input
+- Build a graphical user interface in the future
